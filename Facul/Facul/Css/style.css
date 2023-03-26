@@ -1,0 +1,144 @@
+/* css deixar logo redonda */
+.rounded-circle {
+    border-radius: 50%!important;
+    
+}
+/* Tamanho da Logo */
+.img-fluid {
+    max-width: 180px;
+    height: auto;
+    
+}
+
+.img-fluid:hover{
+   
+}
+
+/* Alinhamento */
+.text-center {
+    text-align: center!important;
+}
+
+.mt-3 {
+    margin-top: 1rem!important;
+    
+}
+
+/* Alinhamento redes Sociais */
+#header .profile .social-links a img{
+
+    font-size: 18px;
+    display: inline-block;
+    background: #9d9ea600;
+    border: 2px solid #e7e7e700;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 42px;
+    height: 52px;
+    transition: .5s ease;
+     
+}
+
+
+
+
+#header .social-links a img:hover{
+    border-radius: 6rem;
+    box-shadow: 0 0 1rem #0cf924;
+}
+
+
+/* Borda Branca Logo */
+#header .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 289px;
+    border: 2px solid #e7e7e7;
+}
+
+.flex-column {
+    padding: 30px;
+    
+}
+
+/* Div Total nav*/
+.d-flex {
+    background-color: #95A278;
+    height: 100vh;
+    
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    line-height: 9px;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+
+.nav-menu a img, p{
+    line-height: 8px;
+    color: #e7e7e7;
+    background: #9d9ea600;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    
+}
+
+/* alinhamento home */
+.align a{
+    
+    height: 55px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease;
+    box-shadow: none;   
+}
+
+.align img:hover {
+border-radius: 4rem;
+box-shadow: 0 0 1rem #0cf924;
+
+}
+
+.copy{
+    line-height: 150px;
+    text-align: center;
+    font-size: small;
+    color: #e7e7e7;
+}
+
+/* div home */
+.home img{ 
+   display: block;
+    opacity: 40%; 
+    width: 80%;
+   display: flex;
+   height: 100vh;   
+  
+}
+
+/* Div Total */
+.container{
+float: left;
+ 
+}   
+
+
+/* body{
+    background-image: url(/img-Projeto/CapaHome.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+ */
+
+
+
+
